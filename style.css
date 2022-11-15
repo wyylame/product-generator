@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #111;
+}
+
+input {
+  height: 40px;
+  width: 220px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: opacity 0.2s;
+  color: #111;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+h1,
+h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+label {
+  color: #fff;
+}
+
+input[type="radio"] {
+  height: 20px;
+  width: 20px;
+}
+
+textarea {
+  min-height: 100px;
+  min-width: 300px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.clear-btn {
+  background-color: rgb(212, 81, 81);
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.categories {
+  padding-top: 30px;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categories__list {
+  margin-top: 30px;
+  display: flex;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  position: relative;
+  background: rgb(230, 230, 230);
+  padding: 5px 30px;
+  border-radius: 10px;
+  color: rgb(87, 87, 87);
+  text-align: center;
+  margin: 0 10px;
+}
+
+.category-item .remove {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.category-item .remove:hover {
+  color: #111;
+  font-weight: bold;
+}
+
+.products {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.files-сount {
+  margin: 30px 0;
+}
+
+.prices {
+  margin: 30px 0;
+}
+
+.params-title {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.params-title h2 {
+  margin-right: 20px;
+}
+
+.params {
+  margin-bottom: 30px;
+}
+
+.params span {
+  font-size: 20px;
+  color: #fff;
+}
+
+.add-params-btn,
+.remove-params-btn {
+  font-size: 30px;
+  width: 40px;
+}
+
+.remove-params-btn {
+  margin-left: 10px;
+}
+
+.remove-params-btn img {
+  position: relative;
+  bottom: -5px;
+}
+
+.param {
+  margin-bottom: 10px;
+}
+
+.code {
+  color: #fff;
+  max-width: 1000px;
+  margin: 30px;
+}
+
+.remove-param {
+  cursor: pointer;
+  transition: .2s;
+}
+
+.remove-param:hover {
+  background: white;
+  color: #111;
+  border-radius: 50%;
+  padding: 0 4px;
+}
